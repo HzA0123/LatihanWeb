@@ -1,1 +1,1 @@
-Belajar membuat sebuah Website Mulai dari HTML, CSS, hingga Javascipt.
+Belajar Struktur dasar dari HTML.
