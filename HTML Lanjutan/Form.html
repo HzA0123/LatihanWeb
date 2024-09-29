@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="email">Email</label>
+        <br />
+        <input type="email" id="email" />
+      </div>
+
+      <div>
+        <label for="password">Password</label>
+        <br />
+        <input type="password" id="password" />
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <!-- Atribut Name -->
+
+    <form>
+      <div>
+        <label for="fullName">Nama</label>
+        <input id="fullName" name="fullName" required />
+      </div>
+
+      <div>
+        <label for="checkIn">Tanggal Check-In</label>
+        <input type="date" id="checkIn" name="checkIn" required />
+      </div>
+
+      <div>
+        <label for="checkOut">Tanggal Check-Out</label>
+        <input type="date" id="checkOut" name="checkOut" required />
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+    <br /><br /><br /><br />
+    <!-- Artibut Action / digunakan untuk mengirim form ke database yang di tuju  -->
+
+    <form action="https://example.com/jalur/ke/alamat/destinasi">
+      <!-- Berbagai macam kolom input -->
+    </form>
+
+    <!-- Atribute Method / yaitu metode yang menentukan cara Si data yang akan di kirim ke database Terdiri dari 2 yaitu GET dan POST -->
+    <!-- Metode Get / Metode yang di gunakan Untuk mendapatkan data dari Server untuk Browser-->
+    <form method="GET" action="https://example.com/">
+      <!-- Kolom input login disembunyikan -->
+      <br /><br /><br /><br />
+    </form>
+
+    <!-- Metode POST / yaitu metode yang digunakan untuk mengirim data Browser Ke Server -->
+
+    <form method="POST" action="https://example.com/">
+      <!-- Kolom input login disembunyikan -->
+    </form>
+  </body>
+</html>
