@@ -1,0 +1,18 @@
+body {
+    font-family: sans-serif;
+  }
+   
+  h2, h3 {
+    color: #898e88;
+  }
+   
+  span {
+    color: red;
+  }
+
+  
+  footer {
+    padding: 20px;
+    color: #fdfffc;
+    background-color: black ;
+  }
