@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Hafid Zayyan</title>
+    <!-- My Styling -->
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- link font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="nav-container">
+      <nav class="nav-list">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <div class="content-wrapper">
+        <!-- main Contect -->
+        <div class="main-content">
+          <section id="home" class="card">
+            <h2>Welcome To My Portfolio.</h2>
+            <p>I'm Hafid Zayyan Ali, UI/UX Designer and Web Developer.</p>
+            <div class="cta">
+              <a href="#contact" class="cta-button"
+                >Hubungi Saya untuk Kolaborasi</a
+              >
+            </div>
+          </section>
+          <section id="about" class="card">
+            <h2>About Me!</h2>
+            <p>
+              Hello! I'm Hafid Zayyan Ali, a passionate UI/UX Designer and Web
+              Developer based in Indonesia. I love creating user-centric designs
+              and developing functional and visually appealing websites. My
+              journey started with a deep interest in design and technology, and
+              I have honed my skills in both front-end development and design
+              tools.
+            </p>
+          </section>
+
+          <article id="skills" class="card">
+            <h2>Tech I Use</h2>
+            <div class="skills-container">
+              <div class="skill-item">
+                <img src="image/HTML logo.png" alt="HTML Logo" />
+                <p>HTML</p>
+              </div>
+              <div class="skill-item">
+                <img src="image/CSS logo.png" alt="CSS Logo" />
+                <p>CSS</p>
+              </div>
+              <div class="skill-item">
+                <img src="image/JavaScript logo.png" alt="JavaScript Logo" />
+                <p>JavaScript</p>
+              </div>
+              <div class="skill-item">
+                <img src="image/Figma logo.png" alt="Figma Logo" />
+                <p>Figma</p>
+              </div>
+              <div class="skill-item">
+                <img src="image/Canva logo.png" alt="Canva Logo" />
+                <p>Canva</p>
+              </div>
+            </div>
+          </article>
+          <article id="contact" class="card">
+            <h2>Les't Make Something Awesome Together!</h2>
+
+            <p>
+              Feel free to reach out to me by filling out the form below or via
+              social media. I'll get back to you as soon as possible!
+            </p>
+            <form action="">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required />
+
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" required />
+
+              <label for="message">Your Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+
+              <button type="submit" class="cta-button">Send Message</button>
+            </form>
+            <div class="social-links">
+              <a href="mailto:hafidzayyan21@gmail.com"
+                ><i class="fa-solid fa-envelope"></i> Email Me</a
+              >
+              <a href="https://linkedin.com/in/hafid-zayyan-ali-37b163308"
+                ><i class="fa-brands fa-linkedin"></i> LinkedIn</a
+              >
+              <a href="https://github.com/HzA0123"
+                ><i class="fa-brands fa-github"></i> GitHub</a
+              >
+            </div>
+          </article>
+        </div>
+
+        <!-- Side content -->
+        <aside>
+          <h2>
+            <i class="fa-solid fa-code" style="color: #74c0fc"></i> Hafid Zayyan
+            Ali
+          </h2>
+          <div class="profile-img">
+            <img src="/assets/image/profile.jpeg" alt="Hafid zayyan Ali" />
+          </div>
+
+          <p class="specialization">UI/UX Designer and Frontend Developer</p>
+          <p class="location">Bekasi, Indonesia</p>
+          <button class="cta-button">
+            <a href="mailto:hafidzayyan21@gmail.com">Let's Work Together</a>
+          </button>
+        </aside>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer>&copy; 2024 Hafid Zayyan Ali. All rights reserved.</footer>
+  </body>
+</html>
